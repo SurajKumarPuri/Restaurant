@@ -1,0 +1,54 @@
+body{
+    overflow-x: hidden;
+}
+.container{
+    width: 100%;
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.contant{
+    width: 95%;
+ background-color: orangered;
+}
+.heading{
+    width: 90%;
+    margin: 15px 10px;
+    background-color: white;
+}
+.headingtext{
+    font-size: 20px;
+    margin:10px
+}
+.text{
+    margin-left: 25px;
+    color: white;
+}
+.listitem{
+    margin-left: 25px;
+    color: white;
+}
+.day{
+    margin-left: 25px;
+    margin-bottom: 2px;
+    color: white;
+}
+.time{
+    margin-left: 25px;
+    margin-top: 0px;
+    color: white;
+}
+@media(min-width:768px){
+    .container{
+        width: 40%;
+        position: relative;
+        order: 1;
+    }
+}
+@media(min-width:1024px){
+    .container{
+        width:25% ;
+    }
+}
