@@ -17,6 +17,7 @@ body{
     color: white;
     margin-top: 5px;
     margin-bottom: 5px;
+    text-decoration: none;
 }
 @media(min-width:768px){
     .container2{

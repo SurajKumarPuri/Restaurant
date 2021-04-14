@@ -1,6 +1,6 @@
 import React from "react";
-import Logoimg from "../../Assect/Logo.png";
-import Menuimg from "../../Assect/Menu.png";
+import Logoimg from "../../Assets/Logo.png";
+import Menuimg from "../../Assets/Menu.png";
 import Styles from "./Header.module.css";
 class Header extends React.Component{
   render(){

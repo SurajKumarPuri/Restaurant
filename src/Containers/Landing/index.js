@@ -1,10 +1,11 @@
 import React from "react";
 import Styles from "./Landing.module.css";
-import Slideimg from "../../Assect/Slide.png";
+import Slideimg from "../../Assets/Slide.png";
+import Picture from "../../Components/Picture";
 function Landing(){
     return(
         <div className={Styles.slidebox}>
-            <img className={Styles.slide} src={Slideimg} alt='image'/>
+            <Picture className={Styles.slide} url={Slideimg}/>
         </div>
     )
 }

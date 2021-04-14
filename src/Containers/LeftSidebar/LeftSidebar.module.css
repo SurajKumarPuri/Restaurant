@@ -2,7 +2,7 @@ body{
     overflow-x: hidden;
 }
 .container{
-    width: 100%;
+    width: 95%;
     margin-top: 13px;
     display: flex;
     flex-direction: column;
@@ -10,45 +10,52 @@ body{
   
 }
 .contant{
-    width: 95%;
+    width: 100%;
  background-color: orangered;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 .heading{
-    width: 90%;
-    margin: 15px 10px;
+    width: 94%;
+    margin: 10px 0px;
     background-color: white;
 }
 .headingtext{
-    font-size: 20px;
-    margin:10px
+    font-size: 15px;
+    margin:5px
 }
 .text{
-    margin-left: 25px;
+    margin-left: 15px;
+    margin-top: 0px;
     color: white;
 }
 .listitem{
-    margin-left: 25px;
+    width: 94%;
+    margin-left: 15px;
     color: white;
 }
+.schedule{
+  width: 94%;
+}
 .day{
-    margin-left: 25px;
+    margin-left: 10px;
     margin-bottom: 2px;
     color: white;
 }
 .time{
-    margin-left: 25px;
+    margin-left: 10px;
     margin-top: 0px;
     color: white;
 }
 @media(min-width:768px){
     .container{
-        width: 40%;
-        position: relative;
+        width: 37%;
         order: 1;
-    }
+    } 
 }
 @media(min-width:1024px){
     .container{
-        width:25% ;
+        width:22% ;
     }
 }

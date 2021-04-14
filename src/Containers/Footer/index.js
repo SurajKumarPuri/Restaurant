@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Footer.module.css";
 function Footer(){
     return(
-        <div className={styles.container}>
+        <div className={styles.container3}>
             <div className={styles.line}></div>
             <div className={styles.contant}>
                 <div className={styles.textbox}>

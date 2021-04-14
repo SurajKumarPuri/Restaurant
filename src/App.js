@@ -1,9 +1,9 @@
 import React from "react";
 import './App.css';
-import Webapp from "./Component";
+import Routes from "./Routing";
 function App() {
   return (
-    <Webapp/>
+    <Routes/>
   )
 }
 

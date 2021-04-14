@@ -1,21 +1,23 @@
 import React from "react";
-import styles from "./Aside2.module.css";
-function Aside2(){
+import List from "../../Components/MenuList";
+import Paragraph from "../../Components/Paragraph";
+import styles from "./LeftSidebar.module.css";
+function Aside(){
     return(
         <div className={styles.container}>
             <div className={styles.contant}>
              <div className={styles.heading}>
                  <h4 className={styles.headingtext}>Features</h4>
              </div>
-             <p className={styles.text}>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol </p>
+             <Paragraph className={styles.text} value='Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat vol '/>
              <div className={styles.heading}>
                  <h4 className={styles.headingtext}>New Summer Menu</h4>
              </div>
-             <li className={styles.listitem}>Chicken Schnitzel</li>
-             <li className={styles.listitem}>Chicken Parmigiana</li>
-             <li className={styles.listitem}>Prawn Caesar Salad</li>
-             <li className={styles.listitem}>Thai Noodle Salad</li>
-             <li className={styles.listitem}>Blackened Chicken Supreme</li>
+             <List className={styles.listitem} value='Chicken Schnitzel'/>
+             <List className={styles.listitem} value='Chicken Parmigiana'/>
+             <List className={styles.listitem} value='Prawn Caesar Salad'/>
+             <List className={styles.listitem} value='Thai Noodle Salad'/>
+             <List className={styles.listitem} value='Blackened Chicken Supreme'/>
              <div className={styles.heading}>
                  <h4 className={styles.headingtext}>We are Open</h4>
              </div>
@@ -31,4 +33,4 @@ function Aside2(){
         </div>
     )
 }
-export default Aside2;
+export default Aside;
