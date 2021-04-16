@@ -6,7 +6,7 @@ import styles from "./Home.module.css";
 import Section from "../../Containers/MainMenu";
 import Aside from "../../Containers/LeftSidebar";
 import Footer from "../../Containers/Footer";
-class Restaurant extends React.Component{
+class Home extends React.Component{
     constructor(props){
         super(props)
         this.state={data:false}
@@ -27,4 +27,4 @@ class Restaurant extends React.Component{
     )
  }
 }
-export default Restaurant;
+export default Home;

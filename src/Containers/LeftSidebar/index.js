@@ -22,12 +22,12 @@ function Aside(){
                  <h4 className={styles.headingtext}>We are Open</h4>
              </div>
              <div className={styles.schedule}>
-                 <p className={styles.day}>Monday - Friday</p>
-                 <p className={styles.time}>8 AM - 10:30 PM</p>
+                 <Paragraph className={styles.day} value='Monday - Friday'/>
+                 <Paragraph className={styles.time} value='8 AM - 10:30 PM'/>
              </div>
              <div className={styles.schedule}>
-                 <p className={styles.day}>Saturday - Sunday</p>
-                 <p className={styles.time}>8 AM - 11:30 PM</p>
+                 <Paragraph className={styles.day} value='Saturday - Sunday'/>
+                 <Paragraph className={styles.time} value='8 AM - 11:30 PM'/>
              </div>
              </div>
         </div>

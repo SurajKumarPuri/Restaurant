@@ -77,7 +77,7 @@ body{
 }
 @media(min-width:1024px){
     .container1{
-        width: 68%;
+        width: 66%;
     }
     .imagebox{
         width: 12%;
@@ -86,9 +86,11 @@ body{
     .textbox{
         width: 85%;
         margin-right: 0px;
+        margin-bottom: 0px;
     }
     .text{
         font-size: 15px;
+        margin-bottom: 0px;
     }
     .contant2{
        margin-bottom: 50px;
